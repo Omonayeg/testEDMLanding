@@ -297,7 +297,7 @@ body {
   }
 
   .navbar .menu-icon {
-    width: 21px;
+    width: 22px;
     height: 34px;
     padding-top: 0;
     margin-top: 7px;
@@ -1083,5 +1083,5 @@ hr {
 .hidden.active {
   transform: translateY(15px);
   opacity: 1;
-  transition: all 0.6s ease-in;
+  transition: all 0.6s ease;
 }
