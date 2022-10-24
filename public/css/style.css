@@ -1078,10 +1078,11 @@ hr {
 .hidden {
   position: relative;
   opacity: 0;
+  transition: all 0.1s ease
 }
 
 .hidden.active {
   transform: translateY(15px);
   opacity: 1;
-  transition: all 0.6s ease-out;
+  transition: all 0.4s ease-in;
 }
